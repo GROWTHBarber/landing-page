@@ -135,43 +135,7 @@ body{
 }
 
 
-.botao {
 
-  font-family: montserrat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-weight: bold;
-
-  background-color: #8604f8; /* roxo */
-  color: white;
-  border: none;
-  
-  
-  box-shadow: 0px 0px 20px rgb(162, 0, 255) ;
-
-  cursor: pointer;
-  transition: 0.3s;
-  min-width: 380px;
-  
-  padding: 20px;
-  border-radius: 10px;
-  
-  
-  width: min(90vw, 500px); /* 90% da tela ou no máximo 400px */
-  padding: clamp(12px, 2vw, 24px);
-  font-size: clamp(14px, 2.5vw, 22px);
-
-  position: fixed;
-
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  
-}
 
 .botao2{
   font-family: montserrat;
@@ -208,6 +172,26 @@ body{
   transform: translate(-50%, -50%);
 
 }
+.cta{
+    flex: 1; /* ocupa espaço igualmente */
+  min-width: 250px; /* quando ficar menor que isso, quebra */
+  height: 100px;
+  background: linear-gradient(rgba(182, 125, 247, 0.336), rgba(119, 0, 255, 0.027)) ;
+  color: white;
+  padding: 20px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 400px;
+  
+  box-shadow: 0px 0px 20px rgb(204, 0, 255) ;
+}
+
+.ctatxt{
+  font-family: montserrat;
+}
 
 .soluçoes{
   flex: 1; /* ocupa espaço igualmente */
@@ -221,7 +205,7 @@ body{
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: 90vw;
+  top: 10vw;
   
   box-shadow: 0px 0px 20px rgb(204, 0, 255) ;
 }
