@@ -33,8 +33,8 @@
 }
 
 .txtqdr1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(0, 0, 0);
+    font-family: montserrat;
+    color: rgba(0, 0, 0, 0.295);
     font-size: 20px;
 }
 
@@ -49,7 +49,7 @@
 .quadro {
   flex: 1; /* ocupa espaço igualmente */
   min-width: 250px; /* quando ficar menor que isso, quebra */
-  height: 200px;
+  height: 400px;
   background: linear-gradient(rgba(182, 125, 247, 0.336), rgba(119, 0, 255, 0.027)) ;
   color: white;
   padding: 20px;
@@ -72,8 +72,8 @@
 
 .txtqdr2{
     color: rgba(0, 0, 0, 0.815);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
+    font-family: montserrat;
+    font-size: 13px;
     margin: 0;
 
     
@@ -128,7 +128,7 @@ body{
 
     animation: subir 7s ease forwards;
 
-    min-height: 150vh;
+    min-height: 490vh;
     
     
     background: linear-gradient(to top,   rgb(79, 20, 190), rgb(37, 11, 68), rgb(42, 14, 66), rgb(28, 11, 59));
@@ -137,7 +137,7 @@ body{
 
 .botao {
 
-  
+  font-family: montserrat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,14 +166,83 @@ body{
   position: fixed;
 
   position: absolute;
-  top: 87%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   
 }
 
+.botao2{
+  font-family: montserrat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+
+  background-color: #8604f8; /* roxo */
+  color: white;
+  border: none;
+  
+  
+  box-shadow: 0px 0px 20px rgb(162, 0, 255) ;
+
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 380px;
+  
+  padding: 20px;
+  border-radius: 10px;
+  
+  
+  width: min(90vw, 500px); /* 90% da tela ou no máximo 400px */
+  padding: clamp(12px, 2vw, 24px);
+  font-size: clamp(14px, 2.5vw, 22px);
+
+  position: fixed;
+
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.soluçoes{
+  flex: 1; /* ocupa espaço igualmente */
+  min-width: 250px; /* quando ficar menor que isso, quebra */
+  height: 1020px;
+  background: linear-gradient(rgba(116, 17, 230, 0.308), rgba(119, 0, 255, 0.616)) ;
+  color: white;
+  padding: 20px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 90vw;
+  
+  box-shadow: 0px 0px 20px rgb(204, 0, 255) ;
+}
+
+.txt{
+  font-family: montserrat;
+  position: fixed;
+  color: #131338;
+  font-size: 15px;
+}
+.botao2:hover{
+  color: #010102;
+  box-shadow: 0px 0px 20px rgb(98, 0, 255) ;
+  background-color: #5903fa; /* roxo escuro */
+  transform: scale(1.05);
+  transform: translate(-50%, -50%);
+}
+
 .botao:hover {
+  color: #010102;
+  box-shadow: 0px 0px 20px rgb(98, 0, 255) ;
   background-color: #5903fa; /* roxo escuro */
   transform: scale(1.05);
   transform: translate(-50%, -50%);
